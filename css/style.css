@@ -1,0 +1,37 @@
+/* Style for Searching icon */
+#searcher {
+    margin-left: 7px;
+}
+/* End of Style for searching icon */
+
+.sorting {
+    background-color: lightsalmon;
+    transition: 3s;
+}
+
+/* --- Style of Arrows for sorting order --- */
+table td,
+table th{
+    border: 1px solid silver;
+}
+.headerSortDown:after,
+.headerSortUp:after{
+    content: ' ';
+    position: relative;
+    left: 2px;
+    border: 8px solid transparent;
+}
+.headerSortDown:after{
+    top: 10px;
+    border-top-color: silver;
+}
+.headerSortUp:after{
+    bottom: 15px;
+    border-bottom-color: silver;
+}
+.headerSortDown,
+.headerSortUp{
+    padding-right: 10px;
+}
+
+/* === End of Style of Arrows for sorting order === */
